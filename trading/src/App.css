@@ -71,3 +71,12 @@ body {
   padding: 1rem;
 }
 
+input.remove-arrow::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input.remove-arrow[type=number] {
+  -moz-appearance: textfield;
+}
